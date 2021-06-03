@@ -23,6 +23,14 @@ body
         margin-top: 0px!important;
     }
 }
+@media (max-width: 320px)
+{
+    .container-fluid,
+    .container-full
+    {
+        margin-left: -25px;
+    }
+}
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
@@ -416,7 +424,6 @@ div.spacer {
 #body-cont {
     display: none;
     width: 100%;
-    margin-top: 100px;
 }
 /* REARRANGE AND RESIZE NAVBAR */
 @media (max-width: 2200px)
@@ -509,6 +516,94 @@ div.spacer {
     #uoe-search 
     {
         width: 350px;
+    }
+}
+@media (max-width: 768px) 
+{
+    .navbar-form .input-group {
+        display: inline-table!important;
+        vertical-align: middle!important;
+    }
+}
+@media (max-width: 767px) 
+{
+    .input-group {
+        width: 360px;
+    }
+}
+@media (max-width: 740px) 
+{
+    .input-group {
+        margin-left: -40px;
+    }
+}
+@media (max-width: 700px) 
+{
+    .input-group {
+        margin-left: -80px;
+    }
+}
+@media (max-width: 660px) 
+{
+    .input-group {
+        margin-left: -120px;
+    }
+}
+@media (max-width: 620px) 
+{
+    .input-group {
+        margin-left: -160px;
+    }
+}
+@media (max-width: 580px) 
+{
+    .input-group {
+        margin-left: -200px;
+    }
+}
+@media (max-width: 540px) 
+{
+    .input-group {
+        margin-left: -240px;
+    }
+}
+@media (max-width: 500px) 
+{
+    .input-group {
+        margin-left: -280px;
+    }
+}
+@media (max-width: 460px) 
+{
+    .input-group {
+        margin-left: -320px;
+    }
+}
+@media (max-width: 420px) 
+{
+    .input-group {
+        width: 300px;
+        margin-left: -360px;
+    }
+}
+@media (max-width: 380px) 
+{
+    .input-group {
+        margin-left: -400px;
+    }
+}
+@media (max-width: 360px) 
+{
+    .input-group {
+        width: 250px;
+        margin-left: -420px;
+    }
+}
+@media (max-width: 320px) 
+{
+    .input-group {
+        width: 250px;
+        margin-left: -440px;
     }
 }
 /* REARRANGE AND RESIZE NAVBAR END */
@@ -996,6 +1091,34 @@ figcaption {
     text-transform: capitalize;
     letter-spacing: 1px;
 }
+@media (max-width: 420px)
+{
+    .searchFoundRow {
+        width: 50%;
+    }
+    .searchFound {
+        font-size: 20px;
+    }
+    .searchTitle {
+        font-size: 16px;
+    }
+    .searchDate {
+        font-size: 12px;
+    }
+}
+@media (max-width: 380px)
+{
+    .searchFoundRow {
+        margin-left: 75px;
+    }
+    #results-container {
+        width: 350px;
+    }
+    .thumbnail-cont figcaption {
+        width: 50%;
+        margin: auto;
+    }
+}
 
 .thumbnail {
     border:0;
@@ -1003,6 +1126,13 @@ figcaption {
 
 .record-thumbnail-search{
     border: solid 2px #650100;
+}
+@media (max-width: 560px){
+    img.img-responsive.record-thumbnail-search {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    }
 }
 
 .uoe_logo
@@ -1118,8 +1248,8 @@ figcaption {
     text-transform: capitalize;
     font-weight: bolder;
     color: #222;
-    margin-left: 12px;
-    font-size: 2em;
+    margin-right: 12px;
+    font-size: 24px;
     letter-spacing: .1em;
 }
 .panel {
@@ -1134,6 +1264,7 @@ figcaption {
         width: 250px;
         right: 0;
         position: absolute;
+        margin-top: -15px;
     }
 }
 @media (max-width: 560px)
@@ -1142,6 +1273,28 @@ figcaption {
     {
         padding-right: 10px;
         width: 200px;
+    }
+}
+@media (max-width: 420px)
+{
+    #side_facet h3 {
+        font-size: 20px;
+    }
+    #side_facet
+    {
+        width: 150px;
+    }
+    .panel-body a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 380px)
+{
+    #side_facet {
+        width: 130px;
+    }
+    .facet_title, .facet_title a {
+        font-size: 14px;
     }
 }
 
@@ -2045,7 +2198,7 @@ dl {
     .column
     {
         width: 100%;
-        height: auto;
+        height: 250px;
         padding: 15px 10px;
     }
 }
@@ -2138,11 +2291,33 @@ dl {
         width: 75%;
     }
 }
+@media (max-width: 700px)
+{
+    .inst-results 
+    {
+        width: 65%;
+    }
+}
+@media (max-width: 650px)
+{
+    .inst-results 
+    {
+        width: 55%;
+    }
+}
 @media (max-width: 560px)
 {
     .inst-results 
     {
         width: 60%;
+        margin-left: -75px;
+    }
+}
+@media (max-width: 320px)
+{
+    .inst-results 
+    {
+        margin-left: -60px;
     }
 }
 
